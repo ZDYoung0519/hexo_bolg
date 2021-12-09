@@ -3,12 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 燃烧的浅蓝
+subtitle: '个人博客主页'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: ZDYoung
+language:
+  - zh-CN
+  - en
+  - zh-HK
+  - zh-TW
 timezone: ''
 
 # URL
@@ -103,4 +107,6 @@ theme: volantis
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:ZDYoung0519/ZDYoung0519.github.io.git
+  branch: main
